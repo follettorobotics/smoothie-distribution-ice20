@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.2",
+      "versionCode": 1000102,
+      "releasedAt": "2026-07-29T09:02:21Z",
+      "notes": {
+        "ko": "ICE20 보드 설정 화면의 중국어 항목을 한국어로 표시합니다.\n\n- 급수 위치, 재료 배출 위치 등 9개 항목 번역 추가\n- 일부 기기에만 있는 설정이라 그동안 중국어로 표시되었습니다",
+        "en": "ICE20 board settings now read in the app's language.\n\n- Adds translations for 9 settings that appeared in Chinese\n- They exist only on some machines, which is why they were missed"
+      }
+    },
+    {
       "versionName": "0.1.1",
       "versionCode": 1000101,
       "releasedAt": "2026-07-29T08:43:35Z",

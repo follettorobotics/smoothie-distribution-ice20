@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000101,
-  "versionName": "0.1.1",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.1/app-release.apk",
-  "sha256": "1fe44cff2ad86dfce283e3bc666444c1ce6ec22582fa99ff8486805d72a15553",
+  "versionCode": 1000102,
+  "versionName": "0.1.2",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.2/app-release.apk",
+  "sha256": "49a23e988fbae836f18865448929f2401cac1eccaab7805343cd8a17bb1021c0",
   "minVersionCode": 1,
-  "releaseNotes": "글자 크기를 더 작게 조절할 수 있습니다.\n\n- 설정 > 글씨 크기에 70% 추가 (ICE20 기기 전용)\n- 기존에 선택한 크기는 그대로 유지됩니다",
-  "releasedAt": "2026-07-29T08:43:35Z"
+  "releaseNotes": "ICE20 보드 설정 화면의 중국어 항목을 한국어로 표시합니다.\n\n- 급수 위치, 재료 배출 위치 등 9개 항목 번역 추가\n- 일부 기기에만 있는 설정이라 그동안 중국어로 표시되었습니다",
+  "releasedAt": "2026-07-29T09:02:21Z"
 }
