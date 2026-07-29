@@ -1,3 +1,13 @@
 {
-  "releases": []
+  "releases": [
+    {
+      "versionName": "0.1.0",
+      "versionCode": 1000100,
+      "releasedAt": "2026-07-29T08:18:38Z",
+      "notes": {
+        "ko": "J-Group ICE20 첫 릴리스입니다.\n\n- ICE20 제어보드 연동: 제품 사이클, 도어, 세척, 상태 수신\n- 보드 통신 속도(9600/115200) 자동 감지\n- 보드 내장 레시피 편집: 재료 채널/시간, 믹싱, 세척 단계\n- 시작 시 \"준비 중입니다\" 화면 — 연결 중을 오류로 표시하지 않음\n- 필름 알람·보드 오류를 원인과 함께 안내, 관리자 화면에서 복구\n- ICE20 기기 기본 글자 크기 90%\n- USB 권한 대화상자 없이 부팅 후 바로 연결",
+        "en": "First release for the J-Group ICE20.\n\n- ICE20 control-board integration: product cycle, door, cleaning, status\n- Auto-detects the board's baud rate (9600 or 115200)\n- Board-native recipe editing: ingredient channels and times, mixing, cleaning\n- Shows a \"getting ready\" screen at startup instead of a connection error\n- Film alarms and board faults report their cause and clear from admin\n- Default font scale 90% on ICE20 machines\n- Connects on boot with no USB permission dialog"
+      }
+    }
+  ]
 }
