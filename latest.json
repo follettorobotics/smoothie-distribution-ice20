@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000100,
-  "versionName": "0.1.0",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.0/app-release.apk",
-  "sha256": "a2fb9be16f90513e7bcd903d00a2961df670c69f4e39e1331ab99dd82570cd44",
+  "versionCode": 1000101,
+  "versionName": "0.1.1",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.1/app-release.apk",
+  "sha256": "1fe44cff2ad86dfce283e3bc666444c1ce6ec22582fa99ff8486805d72a15553",
   "minVersionCode": 1,
-  "releaseNotes": "J-Group ICE20 첫 릴리스입니다.\n\n- ICE20 제어보드 연동: 제품 사이클, 도어, 세척, 상태 수신\n- 보드 통신 속도(9600/115200) 자동 감지\n- 보드 내장 레시피 편집: 재료 채널/시간, 믹싱, 세척 단계\n- 시작 시 \"준비 중입니다\" 화면 — 연결 중을 오류로 표시하지 않음\n- 필름 알람·보드 오류를 원인과 함께 안내, 관리자 화면에서 복구\n- ICE20 기기 기본 글자 크기 90%\n- USB 권한 대화상자 없이 부팅 후 바로 연결",
-  "releasedAt": "2026-07-29T08:18:38Z"
+  "releaseNotes": "글자 크기를 더 작게 조절할 수 있습니다.\n\n- 설정 > 글씨 크기에 70% 추가 (ICE20 기기 전용)\n- 기존에 선택한 크기는 그대로 유지됩니다",
+  "releasedAt": "2026-07-29T08:43:35Z"
 }

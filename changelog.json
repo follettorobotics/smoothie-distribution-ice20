@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.1",
+      "versionCode": 1000101,
+      "releasedAt": "2026-07-29T08:43:35Z",
+      "notes": {
+        "ko": "글자 크기를 더 작게 조절할 수 있습니다.\n\n- 설정 > 글씨 크기에 70% 추가 (ICE20 기기 전용)\n- 기존에 선택한 크기는 그대로 유지됩니다",
+        "en": "The font size can now be set smaller.\n\n- Adds a 70% option under Settings > font size (ICE20 machines only)\n- Any size already chosen is left unchanged"
+      }
+    },
+    {
       "versionName": "0.1.0",
       "versionCode": 1000100,
       "releasedAt": "2026-07-29T08:18:38Z",
