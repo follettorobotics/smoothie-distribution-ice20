@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000103,
-  "versionName": "0.1.3",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.3/app-release.apk",
-  "sha256": "48e21e941ea8cdef160c500c5ee846503a42b643843ec8b8bbcd06e50281d62a",
+  "versionCode": 1000104,
+  "versionName": "0.1.4",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.4/app-release.apk",
+  "sha256": "f777814342e30be04f3284b132e739c89ad2e4e09466a015662bce713540ef5a",
   "minVersionCode": 1,
-  "releaseNotes": "화면 전체 크기를 조절할 수 있습니다.\n\n- 설정 > 화면 크기에서 70~110% 선택\n- 글자만이 아니라 버튼·여백까지 함께 조절됩니다\n- 기존 글씨 크기 설정을 대신합니다",
-  "releasedAt": "2026-07-30T01:04:44Z"
+  "releaseNotes": "전원을 켜면 앱이 자동으로 실행되도록 설정할 수 있습니다.\n\n- 기술자 설정 > \"키오스크 홈 화면으로 사용\"을 켜면 됩니다\n- 켠 뒤 안내 항목을 눌러 기본 홈 앱으로 이 앱을 선택해 주세요\n- 켜두면 부팅 후 화면이 나오는 시간이 약 95초에서 약 30초로 줄어듭니다\n- 앱을 강제 종료한 뒤에도 자동 실행이 유지됩니다\n- 화면 크기(70~110%) 설정이 업데이트 후 사라지던 문제를 수정했습니다\n- 이전에 글자 크기를 지정한 기기는 그 값을 화면 크기로 이어받습니다\n- 저장된 설정값이 손상됐을 때 화면이 깨지던 문제를 수정했습니다\n- 정수 펌프 유량 설정이 손상되면 정수가 나오지 않을 수 있던 문제를 수정했습니다",
+  "releasedAt": "2026-07-30T03:07:10Z"
 }

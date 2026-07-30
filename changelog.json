@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.4",
+      "versionCode": 1000104,
+      "releasedAt": "2026-07-30T03:07:10Z",
+      "notes": {
+        "ko": "전원을 켜면 앱이 자동으로 실행되도록 설정할 수 있습니다.\n\n- 기술자 설정 > \"키오스크 홈 화면으로 사용\"을 켜면 됩니다\n- 켠 뒤 안내 항목을 눌러 기본 홈 앱으로 이 앱을 선택해 주세요\n- 켜두면 부팅 후 화면이 나오는 시간이 약 95초에서 약 30초로 줄어듭니다\n- 앱을 강제 종료한 뒤에도 자동 실행이 유지됩니다\n- 화면 크기(70~110%) 설정이 업데이트 후 사라지던 문제를 수정했습니다\n- 이전에 글자 크기를 지정한 기기는 그 값을 화면 크기로 이어받습니다\n- 저장된 설정값이 손상됐을 때 화면이 깨지던 문제를 수정했습니다\n- 정수 펌프 유량 설정이 손상되면 정수가 나오지 않을 수 있던 문제를 수정했습니다",
+        "en": "The app can now start itself when the machine powers on.\n\n- Turn on Technician settings > \"Use as kiosk home screen\"\n- Then tap the prompt to pick this app as the default home app\n- With it on, first paint after a reboot drops from ~95s to ~30s\n- Auto-start also survives a force-stop, which used to disable it silently\n- Fixed display size (70-110%) being lost on update\n- A machine that already had a text size set carries it over to display size\n- Fixed corrupt stored settings being able to render the screen unusable\n- Fixed a corrupt purified-pump flow value silently skipping water dispensing"
+      }
+    },
+    {
       "versionName": "0.1.3",
       "versionCode": 1000103,
       "releasedAt": "2026-07-30T01:04:44Z",
