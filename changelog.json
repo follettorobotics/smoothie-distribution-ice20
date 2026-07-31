@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.6",
+      "versionCode": 1000106,
+      "releasedAt": "2026-07-31T10:02:38Z",
+      "notes": {
+        "ko": "- 설정 화면 상단 중앙에 폴레토 로보틱스 로고가 표시됩니다 (점주·매니저 설정 모두)\n- 음성 안내가 늦게 재생되는 문제를 진단할 수 있도록 상세 기록이 추가되었습니다",
+        "en": "- The Folletto Robotics logo now appears centered at the top of the settings screen (owner and manager tiers)\n- Added diagnostic logging to trace why voice prompts sometimes play after a long delay"
+      }
+    },
+    {
       "versionName": "0.1.5",
       "versionCode": 1000105,
       "releasedAt": "2026-07-31T00:51:28Z",
