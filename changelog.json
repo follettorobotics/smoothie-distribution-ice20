@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.7",
+      "versionCode": 1000107,
+      "releasedAt": "2026-08-06T02:20:22Z",
+      "notes": {
+        "ko": "- 점주·매니저 설정에 간단 세척과 전체 청소 메뉴가 추가되었습니다 (보드 내장 세척 동작 실행)\n- 전체 청소는 진행 상황이 표시되며 필요하면 중지할 수 있습니다",
+        "en": "- Owner and manager settings now include Quick Rinse and Full Cleaning, which run the board's built-in wash actions\n- Full Cleaning shows live progress and can be stopped if needed"
+      }
+    },
+    {
       "versionName": "0.1.6",
       "versionCode": 1000106,
       "releasedAt": "2026-07-31T10:02:38Z",

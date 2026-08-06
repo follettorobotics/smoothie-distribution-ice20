@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000106,
-  "versionName": "0.1.6",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.6/app-release.apk",
-  "sha256": "9417fe5f63ec6e0c26cb16003e1984b016698d07a0997473e4c1e3ce3d74410f",
+  "versionCode": 1000107,
+  "versionName": "0.1.7",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.7/app-release.apk",
+  "sha256": "5c625e20e844fd5bf2980b0ccaa56b05043ad5889be4bc9004fd82a2e38589f8",
   "minVersionCode": 1,
-  "releaseNotes": "- 설정 화면 상단 중앙에 폴레토 로보틱스 로고가 표시됩니다 (점주·매니저 설정 모두)\n- 음성 안내가 늦게 재생되는 문제를 진단할 수 있도록 상세 기록이 추가되었습니다",
-  "releasedAt": "2026-07-31T10:02:38Z"
+  "releaseNotes": "- 점주·매니저 설정에 간단 세척과 전체 청소 메뉴가 추가되었습니다 (보드 내장 세척 동작 실행)\n- 전체 청소는 진행 상황이 표시되며 필요하면 중지할 수 있습니다",
+  "releasedAt": "2026-08-06T02:20:22Z"
 }
