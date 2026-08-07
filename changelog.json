@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.8",
+      "versionCode": 1000108,
+      "releasedAt": "2026-08-07T00:53:52Z",
+      "notes": {
+        "ko": "- 전체 청소가 거래처 세척 사양(정수 250ml, 칼날 높이 50%, BLDC 7단 25초)으로 일반 제조처럼 실행됩니다\n- 문이 열리면 빈 용기를 넣고 문을 닫으면 시작되며, 세척이 끝나면 스스로 멈춥니다 (필요하면 중지할 수도 있습니다)",
+        "en": "- Full Cleaning now runs the client's wash spec (250 ml purified water, blade height 50%, BLDC level 7 for 25 s) as a normal cycle\n- Load an empty container when the door opens and close it to start; the cycle ends on its own and can still be stopped"
+      }
+    },
+    {
       "versionName": "0.1.7",
       "versionCode": 1000107,
       "releasedAt": "2026-08-06T02:20:22Z",
