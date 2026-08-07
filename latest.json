@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000108,
-  "versionName": "0.1.8",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.8/app-release.apk",
-  "sha256": "e888462657d17e2c5170723c365b0fa7eb3e342e0fc2af3998573965213caab2",
+  "versionCode": 1000109,
+  "versionName": "0.1.9",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.9/app-release.apk",
+  "sha256": "a07061447d75ce693ee54e08a823f94c2fe4298856de8493275426aee771d9af",
   "minVersionCode": 1,
-  "releaseNotes": "- 전체 청소가 거래처 세척 사양(정수 250ml, 칼날 높이 50%, BLDC 7단 25초)으로 일반 제조처럼 실행됩니다\n- 문이 열리면 빈 용기를 넣고 문을 닫으면 시작되며, 세척이 끝나면 스스로 멈춥니다 (필요하면 중지할 수도 있습니다)",
-  "releasedAt": "2026-08-07T00:53:52Z"
+  "releaseNotes": "- 거래처 요청에 따라 전체 청소의 세척수를 250ml에서 175ml로 30% 줄였습니다",
+  "releasedAt": "2026-08-07T02:19:08Z"
 }

@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.9",
+      "versionCode": 1000109,
+      "releasedAt": "2026-08-07T02:19:08Z",
+      "notes": {
+        "ko": "- 거래처 요청에 따라 전체 청소의 세척수를 250ml에서 175ml로 30% 줄였습니다",
+        "en": "- Full Cleaning wash water reduced 30% (250 ml to 175 ml) per the client's request"
+      }
+    },
+    {
       "versionName": "0.1.8",
       "versionCode": 1000108,
       "releasedAt": "2026-08-07T00:53:52Z",
