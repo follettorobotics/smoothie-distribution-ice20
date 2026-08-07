@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000109,
-  "versionName": "0.1.9",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.9/app-release.apk",
-  "sha256": "a07061447d75ce693ee54e08a823f94c2fe4298856de8493275426aee771d9af",
+  "versionCode": 1000110,
+  "versionName": "0.1.10",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.10/app-release.apk",
+  "sha256": "a32aad568927e548f3a395def47b30f0c6c378fa4695aa20cd965ea11cfc2357",
   "minVersionCode": 1,
-  "releaseNotes": "- 거래처 요청에 따라 전체 청소의 세척수를 250ml에서 175ml로 30% 줄였습니다",
-  "releasedAt": "2026-08-07T02:19:08Z"
+  "releaseNotes": "- 전체 청소 세척 동작을 기계에서 직접 편집할 수 있습니다: 급수 행(냉수/온수는 ml, 재료는 초)과 믹싱 행(깊이/속도/시간)을 각각 최대 4개까지 구성\n- 급수 행마다 계산된 급수 시간이 표시되고, 예상 소요 시간과 기본값 복원 버튼이 추가되었습니다\n- 세척수 양은 계속 급수 유량 보정을 따라 환산되므로 보정만 다시 하면 양이 맞춰집니다",
+  "releasedAt": "2026-08-07T02:53:25Z"
 }

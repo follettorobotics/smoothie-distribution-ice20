@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.10",
+      "versionCode": 1000110,
+      "releasedAt": "2026-08-07T02:53:25Z",
+      "notes": {
+        "ko": "- 전체 청소 세척 동작을 기계에서 직접 편집할 수 있습니다: 급수 행(냉수/온수는 ml, 재료는 초)과 믹싱 행(깊이/속도/시간)을 각각 최대 4개까지 구성\n- 급수 행마다 계산된 급수 시간이 표시되고, 예상 소요 시간과 기본값 복원 버튼이 추가되었습니다\n- 세척수 양은 계속 급수 유량 보정을 따라 환산되므로 보정만 다시 하면 양이 맞춰집니다",
+        "en": "- The Full Cleaning wash cycle is now fully editable on the machine: dispense rows (water in ml, powders in seconds) and mixing rows (depth/speed/time), up to 4 each\n- Each water row shows its computed dispense time, and an estimated total duration plus a reset-to-defaults button were added\n- Water volumes still convert through the flow calibration, so re-calibrating corrects the poured amount"
+      }
+    },
+    {
       "versionName": "0.1.9",
       "versionCode": 1000109,
       "releasedAt": "2026-08-07T02:19:08Z",
