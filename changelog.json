@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.11",
+      "versionCode": 1000111,
+      "releasedAt": "2026-08-11T00:28:41Z",
+      "notes": {
+        "ko": "구형 UI 이미지 교체가 화면에 즉시 반영되지 않던 문제를 수정했습니다. 이미지 선택이 실패하면 이제 안내 메시지가 표시됩니다.",
+        "en": "Fixed legacy UI image replacement not applying to the screen. Failed image picks now show an error message."
+      }
+    },
+    {
       "versionName": "0.1.10",
       "versionCode": 1000110,
       "releasedAt": "2026-08-07T02:53:25Z",
