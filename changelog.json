@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.13",
+      "versionCode": 1000113,
+      "releasedAt": "2026-08-14T02:38:55Z",
+      "notes": {
+        "ko": "구형 UI에서 제조가 끝날 때까지 제조중 이미지만 표시되던 문제를 수정했습니다. 이제 기기 내부 세척 중에는 세척 안내 이미지가, 컵을 꺼내는 단계에서는 컵 제거 안내 이미지가 표시됩니다. 최신 UI에서도 세척 단계가 진행 표시줄에 표시됩니다.",
+        "en": "Fixed the legacy UI showing only the preparing image until the order finished. The cleaning image now shows during the machine's internal wash and the cup-removal image during pickup. The modern UI also gains a cleaning step on the progress rail."
+      }
+    },
+    {
       "versionName": "0.1.12",
       "versionCode": 1000112,
       "releasedAt": "2026-08-14T01:23:03Z",

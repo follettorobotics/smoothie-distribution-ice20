@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000112,
-  "versionName": "0.1.12",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.12/app-release.apk",
-  "sha256": "d243d00068172390eb31fc856c760903413d2a49c2f186207a80bdd3fa86a0ba",
+  "versionCode": 1000113,
+  "versionName": "0.1.13",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.13/app-release.apk",
+  "sha256": "8b685bb42aa4ef5445e98db742f3da1ad9f98b8f532ee5aafa73caef96941a11",
   "minVersionCode": 1,
-  "releaseNotes": "설정한 주기에 따라 간단 세척을 자동으로 실행하는 기능이 추가되었습니다. 간단 세척 페이지에서 사용 안 함 / 30분 / 1 / 2 / 4 / 6 / 12시간 중 선택할 수 있으며(기본값: 사용 안 함), 다음 자동 세척까지 남은 시간이 표시됩니다. 자동 세척은 제품 제조 중이거나 설정 화면이 열려 있는 동안에는 실행되지 않으며, 기기가 5분간 완전히 대기 상태일 때만 실행됩니다. 수동 간단 세척을 완료하면 주기가 그 시점부터 다시 계산됩니다.",
-  "releasedAt": "2026-08-14T01:23:03Z"
+  "releaseNotes": "구형 UI에서 제조가 끝날 때까지 제조중 이미지만 표시되던 문제를 수정했습니다. 이제 기기 내부 세척 중에는 세척 안내 이미지가, 컵을 꺼내는 단계에서는 컵 제거 안내 이미지가 표시됩니다. 최신 UI에서도 세척 단계가 진행 표시줄에 표시됩니다.",
+  "releasedAt": "2026-08-14T02:38:55Z"
 }
