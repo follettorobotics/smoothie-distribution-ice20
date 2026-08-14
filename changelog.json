@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.12",
+      "versionCode": 1000112,
+      "releasedAt": "2026-08-14T01:23:03Z",
+      "notes": {
+        "ko": "설정한 주기에 따라 간단 세척을 자동으로 실행하는 기능이 추가되었습니다. 간단 세척 페이지에서 사용 안 함 / 30분 / 1 / 2 / 4 / 6 / 12시간 중 선택할 수 있으며(기본값: 사용 안 함), 다음 자동 세척까지 남은 시간이 표시됩니다. 자동 세척은 제품 제조 중이거나 설정 화면이 열려 있는 동안에는 실행되지 않으며, 기기가 5분간 완전히 대기 상태일 때만 실행됩니다. 수동 간단 세척을 완료하면 주기가 그 시점부터 다시 계산됩니다.",
+        "en": "Added scheduled automatic rinsing: pick an interval (off / 30m / 1 / 2 / 4 / 6 / 12h, default off) on the quick-rinse page, with a countdown to the next run. The auto rinse only runs once the machine has been fully idle for 5 minutes — never mid-order or while a settings page is open. Completing a manual rinse restarts the schedule from that point."
+      }
+    },
+    {
       "versionName": "0.1.11",
       "versionCode": 1000111,
       "releasedAt": "2026-08-11T00:28:41Z",
