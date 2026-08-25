@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000114,
-  "versionName": "0.1.14",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.14/app-release.apk",
-  "sha256": "5a1d4e94d70b35ae460737d9f59f1b5f7df99e67a4ce4ddd064dfd028e015062",
+  "versionCode": 1000115,
+  "versionName": "0.1.15",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.15/app-release.apk",
+  "sha256": "1c8d3d8a0453dddd710ed21a81f358800a972889a89588f66ae6e21b79bd96f9",
   "minVersionCode": 1,
-  "releaseNotes": "문제 신고 기능이 추가되었습니다. 설정 → 유지관리 → 문제 신고에서 증상을 적어 보내면 기기의 진단 로그가 함께 암호화되어 전송되므로, 통신 오류나 문이 열리지 않는 문제를 방문 없이 분석할 수 있습니다. 매장명을 함께 입력하면 어느 매장의 기기인지 바로 확인됩니다. 기기 오류(E-2xx)가 발생하면 진단 로그가 자동으로 전송되며, 네트워크가 없을 때는 보관했다가 다음 부팅 시 다시 전송합니다. 기술자 메뉴에는 로그 업로드와 기기 시리얼 번호 항목이 추가되었습니다.",
-  "releasedAt": "2026-08-25T02:31:45Z"
+  "releaseNotes": "제어보드가 응답하지 않을 때의 동작을 개선했습니다. 응답이 없는 보드에 10초마다 보드 리셋 명령을 반복 전송하던 동작을 중단하고, 재연결 시도 간격을 완화했습니다. '기기 통신 오류' 화면에 \"기기 본체 전원을 완전히 끄고 30초 후 다시 켜 주세요\" 안내를 추가했습니다(태블릿만 재부팅하면 복구되지 않는 사례가 확인됨). 앱 시작 기록에 태블릿 가동 시간을 남겨 재부팅과 앱 재시작을 구분할 수 있게 했습니다.",
+  "releasedAt": "2026-08-25T03:47:33Z"
 }

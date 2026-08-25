@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.15",
+      "versionCode": 1000115,
+      "releasedAt": "2026-08-25T03:47:33Z",
+      "notes": {
+        "ko": "제어보드가 응답하지 않을 때의 동작을 개선했습니다. 응답이 없는 보드에 10초마다 보드 리셋 명령을 반복 전송하던 동작을 중단하고, 재연결 시도 간격을 완화했습니다. '기기 통신 오류' 화면에 \"기기 본체 전원을 완전히 끄고 30초 후 다시 켜 주세요\" 안내를 추가했습니다(태블릿만 재부팅하면 복구되지 않는 사례가 확인됨). 앱 시작 기록에 태블릿 가동 시간을 남겨 재부팅과 앱 재시작을 구분할 수 있게 했습니다.",
+        "en": "Improved behaviour when the control board stops answering: the app no longer sends a board-reset command every 10 seconds to a silent board, and reconnection attempts back off. The \"Machine communication error\" screen now tells staff to switch the machine fully off at the mains for 30 seconds (rebooting only the tablet has been seen not to recover it). App-start log lines now include tablet uptime so a reboot can be told from an app restart."
+      }
+    },
+    {
       "versionName": "0.1.14",
       "versionCode": 1000114,
       "releasedAt": "2026-08-25T02:31:45Z",
