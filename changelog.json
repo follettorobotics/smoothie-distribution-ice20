@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.14",
+      "versionCode": 1000114,
+      "releasedAt": "2026-08-25T02:31:45Z",
+      "notes": {
+        "ko": "문제 신고 기능이 추가되었습니다. 설정 → 유지관리 → 문제 신고에서 증상을 적어 보내면 기기의 진단 로그가 함께 암호화되어 전송되므로, 통신 오류나 문이 열리지 않는 문제를 방문 없이 분석할 수 있습니다. 매장명을 함께 입력하면 어느 매장의 기기인지 바로 확인됩니다. 기기 오류(E-2xx)가 발생하면 진단 로그가 자동으로 전송되며, 네트워크가 없을 때는 보관했다가 다음 부팅 시 다시 전송합니다. 기술자 메뉴에는 로그 업로드와 기기 시리얼 번호 항목이 추가되었습니다.",
+        "en": "Added problem reporting. Settings → Maintenance → Report a problem sends your description together with the machine's encrypted diagnostic logs, so communication errors and door failures can be analysed without a site visit. Enter the store name so the report is routed to the right machine. Machine faults (E-2xx) now upload their diagnostic logs automatically, queued for the next boot when offline. The technician menu gains Upload logs and Machine serial number entries."
+      }
+    },
+    {
       "versionName": "0.1.13",
       "versionCode": 1000113,
       "releasedAt": "2026-08-14T02:38:55Z",
