@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.17",
+      "versionCode": 1000117,
+      "releasedAt": "2026-08-26T01:51:18Z",
+      "notes": {
+        "ko": "음료 제조 완료 직후 앱이 종료되던 원인 한 가지를 수정했습니다. 알림음 장치를 준비하지 못하는 상황(태블릿 오디오 오류)에서 앱이 그대로 종료될 수 있었으며, 이제는 알림음만 생략하고 정상 동작합니다. 또한 현장 원인 분석을 위한 기록을 크게 보강했습니다. 오류 화면이 뜬 사실, 바코드 인식이 무시된 사실(제조가 끝나지 않아 다음 손님을 받지 못하는 경우 포함), 제조 시작·단계·완료, 그리고 설정에서 앱을 재시작하거나 종료한 사실이 모두 로그에 남습니다. 이로써 앱 오류·직원의 재시작·기기 전원 차단을 로그만으로 구분할 수 있습니다. 태블릿 시계가 틀어진 상태로 부팅했을 때 기록 중인 로그 파일이 삭제되던 문제도 수정했고, 통신 잡음이 심한 기기에서 로그가 과도하게 쌓이지 않도록 정리했습니다.",
+        "en": "Fixes one cause of the app quitting right after a drink finishes: if the tablet's audio device could not be prepared, the app could terminate outright; it now simply skips the beep and carries on. Field diagnostics are also substantially expanded — the log now records error screens, ignored barcode scans (including the case where an unfinished cycle turns away the next customer), cycle start/phase/completion, and any restart or exit initiated from the settings screen. Together these make an app fault, a staff restart and a machine power-off distinguishable from the log alone. Also fixes the active log file being deleted when the tablet boots with a wrong clock, and bounds log growth on units with a noisy serial line."
+      }
+    },
+    {
       "versionName": "0.1.16",
       "versionCode": 1000116,
       "releasedAt": "2026-08-25T10:11:32Z",
