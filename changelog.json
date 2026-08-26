@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.21",
+      "versionCode": 1000121,
+      "releasedAt": "2026-08-26T06:27:30Z",
+      "notes": {
+        "ko": "주문 시작 시 발생하던 통신 에러(E-201)를 수정했습니다. 일부 제어 보드가 문 상태 질의에 응답하지 않는 경우가 있어 정상 기기가 잠기는 문제가 있었는데, 이제 보드가 스스로 보내주는 문 상태 정보를 사용하므로 이 에러가 발생하지 않습니다. 문이 실제로 열려 있으면 주문이 정중히 거절되며(기기 잠김 없음), 안전에는 영향이 없습니다 — 문이 열린 상태에서는 보드 자체가 제조를 시작하지 않습니다.",
+        "en": "Fixed the communication error (E-201) at order start. Some control boards intermittently do not answer the door-state query, which locked healthy machines; the app now uses the door state the board reports on its own, so this error no longer occurs. If the door is genuinely open the order is politely refused (no machine lock), and safety is unaffected — the board itself refuses to start a cycle while its door is open."
+      }
+    },
+    {
       "versionName": "0.1.20",
       "versionCode": 1000120,
       "releasedAt": "2026-08-26T05:34:08Z",
