@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.19",
+      "versionCode": 1000119,
+      "releasedAt": "2026-08-26T04:49:29Z",
+      "notes": {
+        "ko": "진단 로그 자동 전송 기능이 추가되었습니다. 앱이 비정상 종료된 경우 다음 부팅 시 종료 시점의 진단 로그(오류 내용과 메모리 상태 포함)가 자동으로 전송되어, 매장에서 별도로 신고하지 않아도 원인 분석이 바로 시작됩니다. 또한 메모리 사용량이 위험 수준(한도의 85%가 2회 연속 관측)에 도달하면 문제가 발생하기 전에 진단 로그를 미리 전송하고, 메모리 기록 주기를 10분에서 1분으로 좁혀 상세한 추이를 남깁니다. 모든 전송은 백그라운드에서 이루어지며 음료 제조와 매장 운영에는 영향을 주지 않고, 인터넷이 끊긴 경우에는 다음 부팅 시 재전송됩니다.",
+        "en": "Diagnostic logs now upload automatically. After an abnormal app exit, the next boot automatically uploads the diagnostic logs from the moment of the exit (including the error and memory state), so analysis starts without anyone at the store filing a report. In addition, when memory usage reaches a critical level (85% of the budget observed twice in a row), a diagnostic bundle is uploaded before a failure occurs, and heap logging tightens from 10-minute to 1-minute intervals to capture the detailed curve. All uploads run in the background, never affect drink preparation or store operation, and are retried on the next boot when the machine is offline."
+      }
+    },
+    {
       "versionName": "0.1.18",
       "versionCode": 1000118,
       "releasedAt": "2026-08-26T03:36:32Z",
