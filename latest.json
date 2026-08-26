@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000119,
-  "versionName": "0.1.19",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.19/app-release.apk",
-  "sha256": "55e9effabb43f90f1ec5afe9abdbd46798f939eda8d2bcdf9875f9d1cc46f6dd",
+  "versionCode": 1000120,
+  "versionName": "0.1.20",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.20/app-release.apk",
+  "sha256": "838bfc2b4560f6e735898ee94ab58bfd7492ea075d008235bf1a80423a87c851",
   "minVersionCode": 1,
-  "releaseNotes": "진단 로그 자동 전송 기능이 추가되었습니다. 앱이 비정상 종료된 경우 다음 부팅 시 종료 시점의 진단 로그(오류 내용과 메모리 상태 포함)가 자동으로 전송되어, 매장에서 별도로 신고하지 않아도 원인 분석이 바로 시작됩니다. 또한 메모리 사용량이 위험 수준(한도의 85%가 2회 연속 관측)에 도달하면 문제가 발생하기 전에 진단 로그를 미리 전송하고, 메모리 기록 주기를 10분에서 1분으로 좁혀 상세한 추이를 남깁니다. 모든 전송은 백그라운드에서 이루어지며 음료 제조와 매장 운영에는 영향을 주지 않고, 인터넷이 끊긴 경우에는 다음 부팅 시 재전송됩니다.",
-  "releasedAt": "2026-08-26T04:49:29Z"
+  "releaseNotes": "신형 제어 보드(응답이 느린 펌웨어) 지원을 개선했습니다. 보드 응답이 늦어도 통신 에러로 판매가 중단되지 않도록 대기 시간을 늘렸습니다. 앱 재설치 후 USB 연결 허용 팝업이 나타나지 않던 문제를 수정하여, 이제 부팅 후 앱이 직접 허용 팝업을 띄웁니다. 또한 USB 허용 안내 화면은 실제로 USB 권한이 원인일 때만 표시되고, 보드가 응답하지 않는 경우에는 통신 오류 안내가 표시됩니다. 제어 보드와 30분 이상 통신이 되지 않으면 진단 로그가 자동 전송되어 원격 분석이 가능합니다.",
+  "releasedAt": "2026-08-26T05:34:08Z"
 }

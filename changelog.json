@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.20",
+      "versionCode": 1000120,
+      "releasedAt": "2026-08-26T05:34:08Z",
+      "notes": {
+        "ko": "신형 제어 보드(응답이 느린 펌웨어) 지원을 개선했습니다. 보드 응답이 늦어도 통신 에러로 판매가 중단되지 않도록 대기 시간을 늘렸습니다. 앱 재설치 후 USB 연결 허용 팝업이 나타나지 않던 문제를 수정하여, 이제 부팅 후 앱이 직접 허용 팝업을 띄웁니다. 또한 USB 허용 안내 화면은 실제로 USB 권한이 원인일 때만 표시되고, 보드가 응답하지 않는 경우에는 통신 오류 안내가 표시됩니다. 제어 보드와 30분 이상 통신이 되지 않으면 진단 로그가 자동 전송되어 원격 분석이 가능합니다.",
+        "en": "Improved support for the newer control board (slow-reply firmware): reply windows are extended so a late board answer no longer stops sales with a communication error. Fixed the missing USB-permission popup after an app reinstall — the app now raises the permission dialog itself after boot. The USB-permission guidance screen now appears only when the USB permission is actually the blocker; a silent board shows the communication-error guidance instead. When the control board is unreachable for 30+ minutes, diagnostic logs upload automatically for remote analysis."
+      }
+    },
+    {
       "versionName": "0.1.19",
       "versionCode": 1000119,
       "releasedAt": "2026-08-26T04:49:29Z",
