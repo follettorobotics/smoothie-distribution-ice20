@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000121,
-  "versionName": "0.1.21",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.21/app-release.apk",
-  "sha256": "7e496a97667399206a6bd2d9f14de4a81c37a5ab5ed5754314adff2f6995045f",
+  "versionCode": 1000122,
+  "versionName": "0.1.22",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.22/app-release.apk",
+  "sha256": "64720113a19b6e7b4e531cafac1cf3b86b8af5f1be7d92dc0f58c6f541c6b106",
   "minVersionCode": 1,
-  "releaseNotes": "주문 시작 시 발생하던 통신 에러(E-201)를 수정했습니다. 일부 제어 보드가 문 상태 질의에 응답하지 않는 경우가 있어 정상 기기가 잠기는 문제가 있었는데, 이제 보드가 스스로 보내주는 문 상태 정보를 사용하므로 이 에러가 발생하지 않습니다. 문이 실제로 열려 있으면 주문이 정중히 거절되며(기기 잠김 없음), 안전에는 영향이 없습니다 — 문이 열린 상태에서는 보드 자체가 제조를 시작하지 않습니다.",
-  "releasedAt": "2026-08-26T06:27:30Z"
+  "releaseNotes": "안정성 개선: 일부 상황에서 불필요하게 관리자 확인 화면이 표시되던 문제를 수정했습니다. 컵 포장 필름을 제거하지 않았거나 문이 열린 상태로 시작 버튼을 누른 경우, 이제 기기가 잠기지 않고 안내 화면이 표시되며 손님이 바로 다시 시도할 수 있습니다.",
+  "releasedAt": "2026-08-27T02:55:38Z"
 }

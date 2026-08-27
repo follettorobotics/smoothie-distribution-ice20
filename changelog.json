@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.22",
+      "versionCode": 1000122,
+      "releasedAt": "2026-08-27T02:55:38Z",
+      "notes": {
+        "ko": "안정성 개선: 일부 상황에서 불필요하게 관리자 확인 화면이 표시되던 문제를 수정했습니다. 컵 포장 필름을 제거하지 않았거나 문이 열린 상태로 시작 버튼을 누른 경우, 이제 기기가 잠기지 않고 안내 화면이 표시되며 손님이 바로 다시 시도할 수 있습니다.",
+        "en": "Stability improvements: fixed cases where an administrator screen appeared unnecessarily. When the cup film has not been removed or the start button is pressed with the door open, the machine no longer locks — a guidance screen is shown and the customer can retry immediately."
+      }
+    },
+    {
       "versionName": "0.1.21",
       "versionCode": 1000121,
       "releasedAt": "2026-08-26T06:27:30Z",
