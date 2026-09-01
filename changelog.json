@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.24",
+      "versionCode": 1000124,
+      "releasedAt": "2026-09-01T08:06:23Z",
+      "notes": {
+        "ko": "통신 연결 문제를 원격으로 진단할 수 있도록 기록 기능을 강화했습니다.\n늦게 도착하는 응답과, 통신선이 어댑터의 다른 포트에 연결된 경우를\n로그에서 확인할 수 있습니다. 기기 동작에는 변화가 없습니다.",
+        "en": "Strengthened diagnostic logging for communication issues: late replies\nand wiring connected to the adapter's other port are now visible in\nlogs. No behavior change."
+      }
+    },
+    {
       "versionName": "0.1.23",
       "versionCode": 1000123,
       "releasedAt": "2026-09-01T06:52:02Z",
