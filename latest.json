@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000122,
-  "versionName": "0.1.22",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.22/app-release.apk",
-  "sha256": "64720113a19b6e7b4e531cafac1cf3b86b8af5f1be7d92dc0f58c6f541c6b106",
+  "versionCode": 1000123,
+  "versionName": "0.1.23",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.23/app-release.apk",
+  "sha256": "5444bf700a40d0bb4e0660ec8293465c92d124c60bbde2d9e783adbb91a23c4b",
   "minVersionCode": 1,
-  "releaseNotes": "안정성 개선: 일부 상황에서 불필요하게 관리자 확인 화면이 표시되던 문제를 수정했습니다. 컵 포장 필름을 제거하지 않았거나 문이 열린 상태로 시작 버튼을 누른 경우, 이제 기기가 잠기지 않고 안내 화면이 표시되며 손님이 바로 다시 시도할 수 있습니다.",
-  "releasedAt": "2026-08-27T02:55:38Z"
+  "releaseNotes": "일부 제어 보드(115200bps 신형 보드)가 연결 확인 신호에 약 1초 늦게\n응답하는 부분에 대한 처리를 추가했습니다.",
+  "releasedAt": "2026-09-01T06:52:02Z"
 }

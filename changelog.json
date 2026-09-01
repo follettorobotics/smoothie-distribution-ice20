@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.23",
+      "versionCode": 1000123,
+      "releasedAt": "2026-09-01T06:52:02Z",
+      "notes": {
+        "ko": "일부 제어 보드(115200bps 신형 보드)가 연결 확인 신호에 약 1초 늦게\n응답하는 부분에 대한 처리를 추가했습니다.",
+        "en": "Added handling for control boards (newer 115200 bps type) that answer\nthe connection check about one second late."
+      }
+    },
+    {
       "versionName": "0.1.22",
       "versionCode": 1000122,
       "releasedAt": "2026-08-27T02:55:38Z",
