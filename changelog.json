@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.25",
+      "versionCode": 1000125,
+      "releasedAt": "2026-09-01T08:52:21Z",
+      "notes": {
+        "ko": "음료 완성 후 화면 안내를 개선했습니다. 믹싱이 끝나면 컵 회수 안내\n화면이 표시되고, 컵을 꺼낸 뒤에는 자동 세척 안내 화면이 표시됩니다.",
+        "en": "Improved on-screen guidance after the drink is ready: the kiosk now\nshows a take-your-cup screen when mixing finishes, and an automatic\ncleaning screen after the cup is removed."
+      }
+    },
+    {
       "versionName": "0.1.24",
       "versionCode": 1000124,
       "releasedAt": "2026-09-01T08:06:23Z",

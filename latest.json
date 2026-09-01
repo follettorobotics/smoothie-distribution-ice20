@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000124,
-  "versionName": "0.1.24",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.24/app-release.apk",
-  "sha256": "dc51d64333be0ae165ac231850fb00bec1ccaa5b1e67c627f17a0a83668a97f8",
+  "versionCode": 1000125,
+  "versionName": "0.1.25",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.25/app-release.apk",
+  "sha256": "b2b4decc85efeedcc4421b99f3c3b6b36285a0da0586a00be495ca0e68c45658",
   "minVersionCode": 1,
-  "releaseNotes": "통신 연결 문제를 원격으로 진단할 수 있도록 기록 기능을 강화했습니다.\n늦게 도착하는 응답과, 통신선이 어댑터의 다른 포트에 연결된 경우를\n로그에서 확인할 수 있습니다. 기기 동작에는 변화가 없습니다.",
-  "releasedAt": "2026-09-01T08:06:23Z"
+  "releaseNotes": "음료 완성 후 화면 안내를 개선했습니다. 믹싱이 끝나면 컵 회수 안내\n화면이 표시되고, 컵을 꺼낸 뒤에는 자동 세척 안내 화면이 표시됩니다.",
+  "releasedAt": "2026-09-01T08:52:21Z"
 }
