@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000126,
-  "versionName": "0.1.26",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.26/app-release.apk",
-  "sha256": "3ef6a0e4e6fb943a8f8dd24d6cc807ec750ce194730df86acb0408c6c746f700",
+  "versionCode": 1000127,
+  "versionName": "0.1.27",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.27/app-release.apk",
+  "sha256": "f94cbc344c6da94d25f6c343844de53409777823f9c33e79023cd18450350960",
   "minVersionCode": 1,
-  "releaseNotes": "제어보드 통신 안정성 개선: 응답 대기·재시도 시간 조정, 취소 처리 순서 변경, 대기 중 60초마다 보드 생존 확인, USB 순간 끊김 후 재연결되지 않던 문제와 문 신호 오인식(E-201) 수정. 컵 회수/세척 화면과 주문 처리 개선: 한국어 음료 이름 표시, 음료 제공 후 취소 불가, 제공 시점에 주문 '완료' 기록. 자세한 내용은 업데이트 노트 페이지를 참고하세요.",
-  "releasedAt": "2026-09-02T02:30:53Z"
+  "releaseNotes": "업데이트 안내 창에서 변경 사항이 길면 설치 버튼이 화면 밖으로 밀려 보이지 않던 문제를 수정했습니다(변경 사항 영역이 스크롤됩니다). 0.1.26의 제어보드 통신 안정성 개선과 화면·주문 처리 개선을 모두 포함합니다.",
+  "releasedAt": "2026-09-02T04:25:44Z"
 }

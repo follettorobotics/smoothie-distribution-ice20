@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.27",
+      "versionCode": 1000127,
+      "releasedAt": "2026-09-02T04:25:44Z",
+      "notes": {
+        "ko": "업데이트 안내 창에서 변경 사항이 길면 설치 버튼이 화면 밖으로 밀려 보이지 않던 문제를 수정했습니다(변경 사항 영역이 스크롤됩니다). 0.1.26의 제어보드 통신 안정성 개선과 화면·주문 처리 개선을 모두 포함합니다.",
+        "en": "Fixed the update dialog hiding the install button when the release notes are long (the notes area now scrolls). Includes all of 0.1.26's control-board communication stability and screen/order-handling improvements."
+      }
+    },
+    {
       "versionName": "0.1.26",
       "versionCode": 1000126,
       "releasedAt": "2026-09-02T02:30:53Z",
