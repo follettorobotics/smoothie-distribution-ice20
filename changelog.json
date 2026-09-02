@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.28",
+      "versionCode": 1000128,
+      "releasedAt": "2026-09-02T08:29:05Z",
+      "notes": {
+        "ko": "주문 시작 과정의 안정성 개선.\n- 물 부족 여부를 대기 중에 미리 확인해, 물이 부족하면 주문 전에 '물 보충 필요' 안내를 표시합니다(이전에는 시작 후 약 40초 뒤에야 실패로 표시).\n- 컵 포장지 미제거, 문 상태 확인 무응답 등 손님이 바로 고칠 수 있는 상황에서 관리자 확인 화면(E-201)으로 잠기지 않고 다시 시도 안내 화면을 표시합니다. 오류 화면의 '취소하고 컵 꺼내기' 버튼이 실제로 문을 열도록 수정했습니다.\n- 제조 완료 후 보드에 보내는 완료 확인 신호가 전송되지 않던 문제를 수정했습니다.",
+        "en": "Order-start robustness improvements.\n- Water level is checked while idle, so an empty tank shows the refill notice before the order (previously the order failed only about 40 s after start).\n- Customer-fixable situations (cup film left on, door-state check unanswered) now show a retry screen instead of locking on the administrator screen (E-201). The \"cancel and take cup\" button on the error screen now actually opens the door.\n- Fixed the cycle-complete acknowledgement to the board never being sent."
+      }
+    },
+    {
       "versionName": "0.1.27",
       "versionCode": 1000127,
       "releasedAt": "2026-09-02T04:25:44Z",

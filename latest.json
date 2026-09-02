@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000127,
-  "versionName": "0.1.27",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.27/app-release.apk",
-  "sha256": "f94cbc344c6da94d25f6c343844de53409777823f9c33e79023cd18450350960",
+  "versionCode": 1000128,
+  "versionName": "0.1.28",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.28/app-release.apk",
+  "sha256": "52ec4f6705ecd09d7ed4c824d33f472b8911dc738ea37533dd2b97772e2966c3",
   "minVersionCode": 1,
-  "releaseNotes": "업데이트 안내 창에서 변경 사항이 길면 설치 버튼이 화면 밖으로 밀려 보이지 않던 문제를 수정했습니다(변경 사항 영역이 스크롤됩니다). 0.1.26의 제어보드 통신 안정성 개선과 화면·주문 처리 개선을 모두 포함합니다.",
-  "releasedAt": "2026-09-02T04:25:44Z"
+  "releaseNotes": "주문 시작 과정의 안정성 개선.\n- 물 부족 여부를 대기 중에 미리 확인해, 물이 부족하면 주문 전에 '물 보충 필요' 안내를 표시합니다(이전에는 시작 후 약 40초 뒤에야 실패로 표시).\n- 컵 포장지 미제거, 문 상태 확인 무응답 등 손님이 바로 고칠 수 있는 상황에서 관리자 확인 화면(E-201)으로 잠기지 않고 다시 시도 안내 화면을 표시합니다. 오류 화면의 '취소하고 컵 꺼내기' 버튼이 실제로 문을 열도록 수정했습니다.\n- 제조 완료 후 보드에 보내는 완료 확인 신호가 전송되지 않던 문제를 수정했습니다.",
+  "releasedAt": "2026-09-02T08:29:05Z"
 }
