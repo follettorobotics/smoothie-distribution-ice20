@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.30",
+      "versionCode": 1000130,
+      "releasedAt": "2026-09-03T08:51:35Z",
+      "notes": {
+        "ko": "제조 완료 처리 정리.\n- 제조 완료(0C) 후 보드로 보내던 불필요한 확인 신호를 제거했습니다. 동작 변화는 없습니다.",
+        "en": "Cycle-completion cleanup.\n- Removed the unnecessary acknowledgement frame sent to the board after cycle completion (0C). No behaviour change."
+      }
+    },
+    {
       "versionName": "0.1.29",
       "versionCode": 1000129,
       "releasedAt": "2026-09-03T06:32:19Z",

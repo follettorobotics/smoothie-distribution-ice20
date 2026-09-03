@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000129,
-  "versionName": "0.1.29",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.29/app-release.apk",
-  "sha256": "58933ee37640c603450cdae5c04eb332b7afdbec0d5fd9aa7e055ac1cc1cd063",
+  "versionCode": 1000130,
+  "versionName": "0.1.30",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.30/app-release.apk",
+  "sha256": "4e0af147f8da4b9d5a90d22f56c9407c6378f55562a867a3b91a8f139a40bfa8",
   "minVersionCode": 1,
-  "releaseNotes": "통신 진단 개선.\n- 보드가 연결 확인(A8/01)에 응답하지 않을 때, 읽기 전용 식별 신호(8A/0F)를 한 번 더 보내 응답 여부를 로그에 남깁니다.\n- 보드 무응답 원인(펌웨어 정지 vs 통신 경로 문제)을 구분하기 위한 진단용 변경이며, 동작 변화는 없습니다.",
-  "releasedAt": "2026-09-03T06:32:19Z"
+  "releaseNotes": "제조 완료 처리 정리.\n- 제조 완료(0C) 후 보드로 보내던 불필요한 확인 신호를 제거했습니다. 동작 변화는 없습니다.",
+  "releasedAt": "2026-09-03T08:51:35Z"
 }
