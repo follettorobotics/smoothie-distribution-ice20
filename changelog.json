@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.32",
+      "versionCode": 1000132,
+      "releasedAt": "2026-09-17T02:24:20Z",
+      "notes": {
+        "ko": "안정성 개선: 일부 신규 기기에서 제조가 정상 완료된 뒤에도 관리자 확인 화면이 표시되던 문제를 수정했습니다.\n- 제어 보드 펌웨어 종류에 관계없이 제조 진행 상태를 정상적으로 인식합니다.",
+        "en": "Stability improvement: fixed a case where some newer machines showed the administrator screen even though the drink had been made and served.\n- Cycle progress is now recognised regardless of the control-board firmware variant."
+      }
+    },
+    {
       "versionName": "0.1.31",
       "versionCode": 1000131,
       "releasedAt": "2026-09-14T01:53:29Z",
