@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.33",
+      "versionCode": 1000133,
+      "releasedAt": "2026-09-24T07:26:41Z",
+      "notes": {
+        "ko": "시작 버튼 동작 개선: 컵 포장지가 남아 있으면 안내 화면이 바로 표시되고, 포장지를 벗긴 뒤 문을 닫으면 제조가 자동으로 이어집니다.\n- 시작 후 화면이 멈춘 것처럼 보이거나 시작 안내가 반복되던 문제를 수정했습니다.",
+        "en": "Start improvement: if the cup film is still on, a guidance screen appears right away, and the drink continues automatically once the film is removed and the door is closed.\n- Fixed a case where the screen seemed frozen after pressing start or kept asking to press start again."
+      }
+    },
+    {
       "versionName": "0.1.32",
       "versionCode": 1000132,
       "releasedAt": "2026-09-17T02:24:20Z",
