@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000134,
-  "versionName": "0.1.34",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.34/app-release.apk",
-  "sha256": "cff19b9ba0879cf0b0c4ff1405370a2b5dff896971c676c0a3aaea264cc992bc",
+  "versionCode": 1000135,
+  "versionName": "0.1.35",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.35/app-release.apk",
+  "sha256": "421899b68c1d2d25935a96b3f80c57b28736a58ca3abbafa42da86f3ec4778d4",
   "minVersionCode": 1,
-  "releaseNotes": "안정성 개선: 관리자 초기화 직후 주문하면 관리자 확인 화면(E-201)이 표시되던 문제를 수정했습니다.\n- 기기가 재시작 중일 때는 \"기기 준비 중\" 안내가 표시되며, 잠시 후 다시 스캔하면 정상적으로 주문됩니다.",
-  "releasedAt": "2026-09-28T03:10:55Z"
+  "releaseNotes": "안정성 개선: 주문 후 문이 열리지 않고 멈추던 문제를 수정했습니다.\n- 기기 재시작에 실패하면 본체 전원을 껐다 켜 달라는 안내가 화면에 표시됩니다.",
+  "releasedAt": "2026-09-29T02:17:34Z"
 }
