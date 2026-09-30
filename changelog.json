@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.36",
+      "versionCode": 1000136,
+      "releasedAt": "2026-09-30T09:34:20Z",
+      "notes": {
+        "ko": "점주 설정에 하부레일 뒤로가기 / 하부레일 정위치 버튼을 추가했습니다.\n- 전체 세척이 세척 용기를 기다리는 동안 주문 바코드를 스캔하면 오류가 나던 문제를 수정했습니다.\n- 업데이트 다운로드와 설치 안정성을 개선했습니다.\n- 오류 기록은 인터넷이 다시 연결되면 자동으로 전송됩니다.",
+        "en": "Added Lower rail back / Lower rail home buttons to Manager Settings.\n- Fixed an error when an order was scanned while 전체 세척 waited for its cleaning container.\n- Update download and install are more reliable.\n- Error reports are now sent automatically when the internet reconnects."
+      }
+    },
+    {
       "versionName": "0.1.35",
       "versionCode": 1000135,
       "releasedAt": "2026-09-29T02:17:34Z",

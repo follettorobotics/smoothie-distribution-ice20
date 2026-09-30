@@ -1,9 +1,9 @@
 {
-  "versionCode": 1000135,
-  "versionName": "0.1.35",
-  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.35/app-release.apk",
-  "sha256": "421899b68c1d2d25935a96b3f80c57b28736a58ca3abbafa42da86f3ec4778d4",
+  "versionCode": 1000136,
+  "versionName": "0.1.36",
+  "apkUrl": "https://github.com/follettorobotics/smoothie-distribution-ice20/releases/download/ice20-v0.1.36/app-release.apk",
+  "sha256": "1a6f3732e50d46245692d6356d1263a9877317ab9990ccc883196726ece65a5d",
   "minVersionCode": 1,
-  "releaseNotes": "안정성 개선: 주문 후 문이 열리지 않고 멈추던 문제를 수정했습니다.\n- 기기 재시작에 실패하면 본체 전원을 껐다 켜 달라는 안내가 화면에 표시됩니다.",
-  "releasedAt": "2026-09-29T02:17:34Z"
+  "releaseNotes": "점주 설정에 하부레일 뒤로가기 / 하부레일 정위치 버튼을 추가했습니다.\n- 전체 세척이 세척 용기를 기다리는 동안 주문 바코드를 스캔하면 오류가 나던 문제를 수정했습니다.\n- 업데이트 다운로드와 설치 안정성을 개선했습니다.\n- 오류 기록은 인터넷이 다시 연결되면 자동으로 전송됩니다.",
+  "releasedAt": "2026-09-30T09:34:20Z"
 }
