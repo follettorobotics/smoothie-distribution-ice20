@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "versionName": "0.1.37",
+      "versionCode": 1000137,
+      "releasedAt": "2026-10-14T08:24:00Z",
+      "notes": {
+        "ko": "문 열기 QR 스티커를 스캔하고 점주, 관리자 또는 기술자 비밀번호를 입력하면 문이 열립니다.\n- 기기가 동작 중이거나 오류 화면일 때는 문이 열리지 않고 안내가 표시됩니다.\n- 하드웨어 설정(기술자 전용)에서 문 열기 QR을 끌 수 있습니다. 기본으로 켜져 있습니다.\n- 같은 곳에 주문 기록 삭제를 추가했습니다.",
+        "en": "Scan the door-open QR sticker and enter the manager, admin or technician password to open the door.\n- The door does not open while the machine is running or an error screen is showing. A notice is shown instead.\n- The door-open QR can be turned off in Hardware Config (technician only). It is on by default.\n- Added an Erase order history option in the same place."
+      }
+    },
+    {
       "versionName": "0.1.36",
       "versionCode": 1000136,
       "releasedAt": "2026-09-30T09:34:20Z",
